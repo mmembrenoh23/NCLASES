@@ -5,14 +5,14 @@ VisualStudioVersion = 15.0.26430.16
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NClases.Servicios", "NClases.Servicios\NClases.Servicios.csproj", "{87186E50-448E-4A0D-B0F9-6787235C1BD7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NClases.Presentacion", "NClases.Presentacion\NClases.Presentacion.csproj", "{CF50970F-AB6D-49D0-B985-7CA204F051B5}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NClases.Negocio", "NClases.Negocio\NClases.Negocio.csproj", "{7DCBC863-0A09-4BBD-AE03-D0DC2236FE63}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DLL", "DLL", "{184C7F75-00B4-4CE3-8769-7ED9B27E096C}"
 	ProjectSection(SolutionItems) = preProject
 		..\DataAccessLayer\DataAccessLayer\bin\Release\DataAccessLayer.dll = ..\DataAccessLayer\DataAccessLayer\bin\Release\DataAccessLayer.dll
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NClases.Presentacion", "NClases.Presentacion\NClases.Presentacion.csproj", "{583FDA3D-FCDF-4BAC-B213-CDA46E37985A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -24,14 +24,14 @@ Global
 		{87186E50-448E-4A0D-B0F9-6787235C1BD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{87186E50-448E-4A0D-B0F9-6787235C1BD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{87186E50-448E-4A0D-B0F9-6787235C1BD7}.Release|Any CPU.Build.0 = Release|Any CPU
-		{CF50970F-AB6D-49D0-B985-7CA204F051B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{CF50970F-AB6D-49D0-B985-7CA204F051B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{CF50970F-AB6D-49D0-B985-7CA204F051B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{CF50970F-AB6D-49D0-B985-7CA204F051B5}.Release|Any CPU.Build.0 = Release|Any CPU
 		{7DCBC863-0A09-4BBD-AE03-D0DC2236FE63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{7DCBC863-0A09-4BBD-AE03-D0DC2236FE63}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7DCBC863-0A09-4BBD-AE03-D0DC2236FE63}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7DCBC863-0A09-4BBD-AE03-D0DC2236FE63}.Release|Any CPU.Build.0 = Release|Any CPU
+		{583FDA3D-FCDF-4BAC-B213-CDA46E37985A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{583FDA3D-FCDF-4BAC-B213-CDA46E37985A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{583FDA3D-FCDF-4BAC-B213-CDA46E37985A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{583FDA3D-FCDF-4BAC-B213-CDA46E37985A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
