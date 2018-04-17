@@ -245,7 +245,7 @@ namespace NClases.Presentacion
             bundles.Add(new ScriptBundle("~/Custom_JS").Include(
                     "~/Resources/Custom/JS/DataTableNTablaBasica.js",
                     "~/Resources/Custom/JS/DataTableCustom.js",
-                    "~/Resources/Custom/JS/TOUR/Index-Tour.js"));
+                    "~/Resources/Custom/JS/TOUR/Index-Tour.js")); 
         }
     }
 }
