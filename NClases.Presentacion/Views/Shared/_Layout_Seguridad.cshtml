@@ -1,0 +1,104 @@
+﻿
+<!DOCTYPE html>
+<html class="no-js css-menubar" lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
+    <meta name="description" content="Software de Gestion Educativa">
+    <meta name="author" content="NCLASSES">
+
+    <title>Index | Pagina Principal</title>
+
+    <link rel="apple-touch-icon" href="../images/LOGONCLASSES.png">
+    <link rel="shortcut icon" href="../images/LOGO/ico_NCLASSES.ico">
+
+    <!-- Stylesheets -->
+    @Styles.Render("~/bundles/Stylesheets")
+
+    <!-- Plugins -->
+    @Styles.Render("~/bundles/Plugins_CSS")
+    <!-- Datatable -->
+    @Styles.Render("~/bundles/Datatable_CSS")
+
+    <!-- Modales -->
+    @Styles.Render("~/bundles/Modales_CSS")
+    <!-- Botones -->
+    @Styles.Render("~/bundles/Botones_CSS")
+    <!-- Tooltip -->
+    @Styles.Render("~/bundles/Tooltip_CSS")
+    <!-- Badges -->
+    @Styles.Render("~/bundles/Badges_CSS")
+    <!-- Barras de Progreso -->
+    @Styles.Render("~/bundles/Barra_Progreso_CSS")
+    <!-- Notificaciones -->
+    @Styles.Render("~/bundles/Notificaciones_CSS")
+    <!-- Form Advance -->
+    @Styles.Render("~/bundles/Form_Advance_CSS")
+    <!-- Fonts -->
+    @Styles.Render("~/bundles/Fonts_CSS")
+    <!-- Custom -->
+    @Styles.Render("~/bundles/Custom_CSS")
+    <!-- Spinner -->
+    @Styles.Render("~/bundles/Spinner_CSS")
+
+    @RenderSection("styles", required: false)
+
+    <!--[if lt IE 9]>
+    <script src="../Resources/global/vendor/html5shiv/html5shiv.min.js"></script>
+    <![endif]-->
+    <!--[if lt IE 10]>
+    <script src="../Resources/global/vendor/media-match/media.match.min.js"></script>
+    <script src="../Resources/global/vendor/respond/respond.min.js"></script>
+    <![endif]-->
+    <!-- Scripts -->
+    @Scripts.Render("~/Resources/global/vendor/breakpoints/breakpoints.js")
+    <script>
+      Breakpoints();
+    </script>
+</head>
+<body class="animsition page-login-v2 layout-full page-dark">
+    <div class="page" data-animsition-in="fade-in" data-animsition-out="fade-out">
+        <div class="page-content">
+            <div class="page-brand-info">
+                <div class="brand">
+                    <img class="brand-img" src="../../assets/images/logo@2x.png" alt="...">
+                    <h2 class="brand-text font-size-40">Remark</h2>
+                </div>
+                <p class="font-size-20">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+            </div>
+            @RenderBody()
+        </div>
+    </div>
+  
+    <!-- Core  -->
+    @Scripts.Render("~/bundles/Core_JS")
+    <!-- Plugins -->
+    @Scripts.Render("~/bundles/Plugins_JS")
+    <!-- Scripts -->
+    @Scripts.Render("~/bundles/Scripts_JS")
+
+    <script>Config.set('assets', '~/Resources/assets');</script>
+
+    <!-- Page -->
+    @Scripts.Render("~/bundles/Page_JS")
+    <!-- <script src="../Resources/assets/examples/js/dashboard/v1.js"></script> -->
+    <!-- Datatable -->
+    @Scripts.Render("~/bundles/Datatable_JS")
+
+    <!-- Tooltip -->
+    @Scripts.Render("~/bundles/Tooltip_JS")
+
+    <!-- Form -->
+    @Scripts.Render("~/bundles/Forms_JS")
+    <!-- Form Advanced -->
+    @Scripts.Render("~/bundles/Forms_Advanced_JS")
+    <!-- Custom -->
+    @Scripts.Render("~/bundles/Custom_JS")
+
+    @RenderSection("scripts", required: false)
+</body>
+</html>

@@ -9,12 +9,12 @@ namespace NClases.Presentacion
         public static void RegisterBundles(BundleCollection bundles)
         {
             /***************************************** STYLES ******************************************************************/
-            bundles.Add(new StyleBundle("~/Stylesheets").Include(
+            bundles.Add(new StyleBundle("~/bundles/Stylesheets").Include(
                       "~/Resources/global/css/bootstrap.min.css",
                       "~/Resources/global/css/bootstrap-extend.min.css",
                       "~/Resources/assets/css/site.min.css"));
 
-            bundles.Add(new StyleBundle("~/Plugins_CSS").Include(
+            bundles.Add(new StyleBundle("~/bundles/Plugins_CSS").Include(
                       "~/Resources/global/vendor/animsition/animsition.css",
                       "~/Resources/global/vendor/asscrollable/asScrollable.css",
                       "~/Resources/global/vendor/switchery/switchery.css",
@@ -22,7 +22,7 @@ namespace NClases.Presentacion
                       "~/Resources/global/vendor/slidepanel/slidePanel.css",
                       "~/Resources/global/vendor/flag-icon-css/flag-icon.css"));
 
-            bundles.Add(new StyleBundle("~/Datatable_CSS").Include(
+            bundles.Add(new StyleBundle("~/bundles/Datatable_CSS").Include(
                     "~/Resources/global/vendor/datatables.net-bs4/dataTables.bootstrap4.css",
                     "~/Resources/global/vendor/datatables.net-fixedheader-bs4/dataTables.fixedheader.bootstrap4.css",
                     "~/Resources/global/vendor/datatables.net-fixedcolumns-bs4/dataTables.fixedcolumns.bootstrap4.css",
@@ -33,29 +33,29 @@ namespace NClases.Presentacion
                     "~/Resources/global/vendor/datatables.net-buttons-bs4/dataTables.buttons.bootstrap4.css",
                     "~/Resources/assets/examples/css/tables/datatable.css"));
 
-            bundles.Add(new StyleBundle("~/Modales_CSS").Include(
+            bundles.Add(new StyleBundle("~/bundles/Modales_CSS").Include(
                      "~/Resources/assets/examples/css/uikit/modals.css"));
 
-            bundles.Add(new StyleBundle("~/Botones_CSS").Include(
+            bundles.Add(new StyleBundle("~/bundles/Botones_CSS").Include(
                      "~/Resources/assets/examples/css/uikit/buttons.css"));
 
-            bundles.Add(new StyleBundle("~/Tooltip_CSS").Include(
+            bundles.Add(new StyleBundle("~/bundles/Tooltip_CSS").Include(
                     "~/Resources/global/vendor/webui-popover/webui-popover.css",
                     "~/Resources/global/vendor/toolbar/toolbar.css"));
 
-            bundles.Add(new StyleBundle("~/Badges_CSS").Include(
+            bundles.Add(new StyleBundle("~/bundles/Badges_CSS").Include(
                    "~/Resources/assets/examples/css/uikit/badges.css"));
 
-            bundles.Add(new StyleBundle("~/Badges_CSS").Include(
+            bundles.Add(new StyleBundle("~/bundles/Badges_CSS").Include(
                    "~/Resources/assets/examples/css/uikit/progress-bars.css"));
 
-            bundles.Add(new StyleBundle("~/Barra_Progreso_CSS").Include(
+            bundles.Add(new StyleBundle("~/bundles/Barra_Progreso_CSS").Include(
                    "~/Resources/assets/examples/css/uikit/progress-bars.css"));
 
-            bundles.Add(new StyleBundle("~/Notificaciones_CSS").Include(
+            bundles.Add(new StyleBundle("~/bundles/Notificaciones_CSS").Include(
                      "~/Resources/global/vendor/plyr/plyr.css"));
 
-            bundles.Add(new StyleBundle("~/Form_Advance_CSS").Include(
+            bundles.Add(new StyleBundle("~/bundles/Form_Advance_CSS").Include(
                      "~/Resources/global/vendor/select2/select2.css",
                      "~/Resources/global/vendor/bootstrap-tokenfield/bootstrap-tokenfield.css",
                      "~/Resources/global/vendor/bootstrap-tagsinput/bootstrap-tagsinput.css",
@@ -77,21 +77,21 @@ namespace NClases.Presentacion
                      "~/Resources/global/vendor/typeahead-js/typeahead.css",
                      "~/Resources/assets/examples/css/forms/advanced.css"));
 
-            bundles.Add(new StyleBundle("~/Fonts_CSS").Include(
+            bundles.Add(new StyleBundle("~/bundles/Fonts_CSS").Include(
                      "~/Resources/global/fonts/weather-icons/weather-icons.css",
                      "~/Resources/global/fonts/web-icons/web-icons.min.css",
                      "~/Resources/global/fonts/font-awesome/font-awesome.min.css",
                      "~/Resources/global/fonts/brand-icons/brand-icons.min.css"));
 
-            bundles.Add(new StyleBundle("~/Custom_CSS").Include(
+            bundles.Add(new StyleBundle("~/bundles/Custom_CSS").Include(
                     "~/Resources/Custom/CSS/orange.css"));
 
-            bundles.Add(new StyleBundle("~/Spinner_CSS").Include(
+            bundles.Add(new StyleBundle("~/bundles/Spinner_CSS").Include(
                     "~/Resources/Custom/CSS/Spinner/book_flat.css",
                     "~/Resources/Custom/CSS/Spinner/book_full.css"));
 
             /******************************************** JS **********************************************************/
-            bundles.Add(new ScriptBundle("~/Core_JS").Include(
+            bundles.Add(new ScriptBundle("~/bundles/Core_JS").Include(
                     "~/Resources/global/vendor/babel-external-helpers/babel-external-helpers.js",
                     "~/Resources/global/vendor/jquery/jquery.js",
                     "~/Resources/global/vendor/popper-js/umd/popper.min.js",
@@ -102,13 +102,13 @@ namespace NClases.Presentacion
                     "~/Resources/global/vendor/asscrollable/jquery-asScrollable.js",
                     "~/Resources/global/vendor/ashoverscroll/jquery-asHoverScroll.js"));
 
-            bundles.Add(new ScriptBundle("~/Plugins_JS").Include(
+            bundles.Add(new ScriptBundle("~/bundles/Plugins_JS").Include(
                     "~/Resources/global/vendor/switchery/switchery.js",
                     "~/Resources/global/vendor/intro-js/intro.js",
                     "~/Resources/global/vendor/screenfull/screenfull.js",
                     "~/Resources/global/vendor/slidepanel/jquery-slidePanel.js"));
 
-            bundles.Add(new ScriptBundle("~/Scripts_JS").Include(
+            bundles.Add(new ScriptBundle("~/bundles/Scripts_JS").Include(
                     "~/Resources/global/js/Component.js",
                     "~/Resources/global/js/Plugin.js",
                     "~/Resources/global/js/Base.js",
@@ -124,13 +124,13 @@ namespace NClases.Presentacion
                     "~/Resources/assets/js/config/tour.js"));
 
 
-            bundles.Add(new ScriptBundle("~/Page_JS").Include(
+            bundles.Add(new ScriptBundle("~/bundles/Page_JS").Include(
                     "~/Resources/assets/js/Site.js",
                     "~/Resources/global/js/Plugin/asscrollable.js",
                     "~/Resources/global/js/Plugin/slidepanel.js",
                     "~/Resources/global/js/Plugin/switchery.js"));
 
-            bundles.Add(new ScriptBundle("~/Page_JS").Include(
+            bundles.Add(new ScriptBundle("~/bundles/Page_JS").Include(
                      "~/Resources/global/vendor/datatables.net/jquery.dataTables.js",
                       "~/Resources/global/vendor/datatables.net-bs4/dataTables.bootstrap4.js",
                       "~/Resources/global/vendor/datatables.net-fixedheader/dataTables.fixedHeader.js",
@@ -148,7 +148,7 @@ namespace NClases.Presentacion
                       "~/Resources/global/vendor/asrange/jquery-asRange.min.js",
                       "~/Resources/global/vendor/bootbox/bootbox.js"));
 
-            bundles.Add(new ScriptBundle("~/Datatable_JS").Include(
+            bundles.Add(new ScriptBundle("~/bundles/Datatable_JS").Include(
                      "~/Resources/global/vendor/datatables.net/jquery.dataTables.js",
                       "~/Resources/global/vendor/datatables.net-bs4/dataTables.bootstrap4.js",
                       "~/Resources/global/vendor/datatables.net-fixedheader/dataTables.fixedHeader.js",
@@ -167,30 +167,30 @@ namespace NClases.Presentacion
                       "~/Resources/global/vendor/bootbox/bootbox.js",
                       "~/Resources/global/js/Plugin/datatables.js"));
 
-            bundles.Add(new ScriptBundle("~/Tooltip_JS").Include(
+            bundles.Add(new ScriptBundle("~/bundles/Tooltip_JS").Include(
                       "~/Resources/global/vendor/webui-popover/jquery.webui-popover.min.js",
                       "~/Resources/global/vendor/toolbar/jquery.toolbar.js",
                       "~/Resources/global/js/Plugin/webui-popover.js",
                       "~/Resources/global/js/Plugin/toolbar.js",
                       "~/Resources/assets/examples/js/uikit/tooltip-popover.js"));
 
-            bundles.Add(new ScriptBundle("~/Gallery_IMG_JS").Include(
+            bundles.Add(new ScriptBundle("~/bundles/Gallery_IMG_JS").Include(
                      "~/Resources/global/vendor/magnific-popup/jquery.magnific-popup.js",
                      "~/Resources/global/js/Plugin/magnific-popup.js",
                      "~/Resources/assets/examples/js/advanced/lightbox.js"));
 
-            bundles.Add(new ScriptBundle("~/Timeline_JS").Include(
+            bundles.Add(new ScriptBundle("~/bundles/Timeline_JS").Include(
                     "~/Resources/global/vendor/jquery-appear/jquery.appear.js",
                     "~/Resources/global/vendor/plyr/plyr.js",
                     "~/Resources/global/js/Plugin/plyr.js",
                     "~/Resources/assets/examples/js/structure/timeline.js"));
 
-            bundles.Add(new ScriptBundle("~/Forms_JS").Include(
+            bundles.Add(new ScriptBundle("~/bundles/Forms_JS").Include(
                     "~/Resources/global/vendor/jquery-placeholder/jquery.placeholder.js",
                     "~/Resources/global/js/Plugin/jquery-placeholder.js",
                     "~/Resources/global/js/Plugin/input-group-file.js"));
 
-            bundles.Add(new ScriptBundle("~/Forms_Advanced_JS").Include(
+            bundles.Add(new ScriptBundle("~/bundles/Forms_Advanced_JS").Include(
                     "~/Resources/global/vendor/select2/select2.full.min.js",
                   "~/Resources/global/vendor/bootstrap-tokenfield/bootstrap-tokenfield.min.js",
                   "~/Resources/global/vendor/bootstrap-tagsinput/bootstrap-tagsinput.min.js",
@@ -242,7 +242,7 @@ namespace NClases.Presentacion
                   "~/Resources/global/js/Plugin/jquery-placeholder.js",
                   "~/Resources/assets/examples/js/forms/advanced.js"));
 
-            bundles.Add(new ScriptBundle("~/Custom_JS").Include(
+            bundles.Add(new ScriptBundle("~/bundles/Custom_JS").Include(
                     "~/Resources/Custom/JS/DataTableNTablaBasica.js",
                     "~/Resources/Custom/JS/DataTableCustom.js",
                     "~/Resources/Custom/JS/TOUR/Index-Tour.js")); 

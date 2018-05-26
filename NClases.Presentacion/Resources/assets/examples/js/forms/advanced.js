@@ -113,7 +113,7 @@
     var cities = new Bloodhound({
       datumTokenizer: Bloodhound.tokenizers.obj.whitespace('text'),
       queryTokenizer: Bloodhound.tokenizers.whitespace,
-      prefetch: '../../assets/data/cities.json'
+      prefetch: '~/Resources/assets/data/cities.json'
     });
     cities.initialize();
 
@@ -167,7 +167,7 @@
     var cities = new Bloodhound({
       datumTokenizer: Bloodhound.tokenizers.obj.whitespace('text'),
       queryTokenizer: Bloodhound.tokenizers.whitespace,
-      prefetch: '../../assets/data/cities.json'
+      prefetch: '~/Resources/assets/data/cities.json'
     });
     cities.initialize();
 
@@ -347,7 +347,7 @@
         queryTokenizer: Bloodhound.tokenizers.whitespace,
         // url points to a json file that contains an array of country names, see
         // https://github.com/twitter/typeahead.js/blob/gh-pages/data/countries.json
-        prefetch: '../../assets/data/countries.json'
+        prefetch: '~/Resources/assets/data/countries.json'
       });
 
       // passing in `null` for the `options` arguments will result in the default
